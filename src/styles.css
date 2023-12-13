@@ -1,0 +1,70 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#0f4471, #eeeeee80);
+}
+.title{
+    font-size: 50px;
+    color: rgb(255, 249, 80);
+    animation: fliptitle 2s;
+}
+
+@keyframes fliptitle {
+    from{
+        transform: rotateX(90deg);
+    }
+    to{
+        transform: rotateX(0deg);
+    }
+}
+.containerInput{
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 30px 0;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px color(rgb(27, 27, 47));
+}
+.containerInput input {
+    background-color: transparent;
+    border: 0px;
+    font-size: 20px;
+    color: rgb(9, 9, 9);
+    outline: none;
+    margin-right: 5px;
+}
+.containerInput input::placeholder{
+    color: rgb(5, 5, 5);
+}
+.buttonSearch{ 
+    background-color: transparent;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.buttonSearch:hover{
+    transform: scale(1.2);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(234, 223, 18);
+    width: 500px;
+    border-radius: 10px;
+}
+.main h2{
+  margin: 16px 0;
+  font-size: 30px;
+}
+.main span{
+    margin-bottom:10px;
+    font-weight: bold;
+}
