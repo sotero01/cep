@@ -1,0 +1,29 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 15px inset green;
+    padding: 8px;
+    width: 30%;
+    text-align: center;
+    
+}
+
+
+button {
+    cursor: pointer;
+}
+h2 {
+    font-style: italic;
+    margin: auto;
+
+}
+body {
+ position:static;
+ text-align: center;
+ background-color: #bca17c;
+
+}
