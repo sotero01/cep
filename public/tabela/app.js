@@ -1,6 +1,7 @@
 
 let products = [];
 
+// eslint-disable-next-line no-unused-vars
 function addProduct() {
     const productName = document.getElementById('productName').value;
     const productPrice = parseFloat(document.getElementById('productPrice').value);
@@ -12,7 +13,6 @@ function addProduct() {
         clearForm();
     }
 }
-
 function deleteProduct(index) {
     products.splice(index, 1);
     updateTable();
